@@ -5,7 +5,7 @@ import { useLocalSearchParams } from "expo-router";
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { useFetchContent } from '@/hooks/useFetchContent';
 import { Ionicons } from '@expo/vector-icons';
-import { saveLikedItem, removeLikedItem, isItemLiked } from '@/utils/LikeHelper'; // Adjust the path to your helper functions
+import { saveLikedItem, removeLikedItem, isItemLiked } from '@/utils/LikeHelper';
 
 export default function PokemonDetail() {
     const { id } = useLocalSearchParams<{ id: string }>();
